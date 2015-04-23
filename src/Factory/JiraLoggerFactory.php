@@ -2,7 +2,7 @@
 
 namespace Reliv\RcmJira\Factory;
 
-use Reliv\RcmJira\JiraLogger;
+use Reliv\RcmJira\Log\JiraLogger;
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
 

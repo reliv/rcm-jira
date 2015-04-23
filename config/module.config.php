@@ -50,7 +50,7 @@ return [
     'service_manager' => [
         'factories' => [
             'Reliv\RcmJira\Api' => 'Reliv\RcmJira\Factory\JiraApiFactory',
-            'Reliv\RcmJira\JiraLogger' => 'Reliv\RcmJira\Factory\JiraLoggerFactory',
+            'Reliv\RcmJira\Log\JiraLogger' => 'Reliv\RcmJira\Factory\JiraLoggerFactory',
         ]
     ],
 ];

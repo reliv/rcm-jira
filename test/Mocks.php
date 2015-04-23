@@ -28,7 +28,7 @@ class Mocks extends \PHPUnit_Framework_TestCase
     {
 
         $mock = $this->getMockBuilder(
-            '\Reliv\RcmJira\JiraLogger'
+            '\Reliv\RcmJira\Log\JiraLogger'
         )
             ->disableOriginalConstructor()
             ->getMock();

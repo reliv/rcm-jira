@@ -5,7 +5,7 @@ namespace Reliv\RcmJira\Test;
 require_once __DIR__ . '/../Mocks.php';
 
 use RcmErrorHandler\Test\Mocks;
-use Reliv\RcmJira\JiraLogger;
+use Reliv\RcmJira\Log\JiraLogger;
 
 class JiraLoggerTest extends Mocks {
 
