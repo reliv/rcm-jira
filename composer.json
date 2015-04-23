@@ -11,6 +11,7 @@
     "zf2",
     "jira"
   ],
+  "minimum-stability": "dev",
   "homepage": "https://github.com/reliv/rcm-jira",
   "authors": [
     {
