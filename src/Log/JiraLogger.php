@@ -1,6 +1,6 @@
 <?php
 
-namespace Reliv\RcmJira;
+namespace Reliv\RcmJira\Log;
 
 use RcmErrorHandler\Log\AbstractErrorLogger;
 use RcmErrorHandler\Log\ErrorLogger;
