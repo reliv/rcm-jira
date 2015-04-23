@@ -1,0 +1,41 @@
+{
+  "name": "reliv/rcm-jira",
+  "description": "Error logger for Jira.",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "reliv",
+    "error",
+    "exception",
+    "module",
+    "zf2",
+    "jira"
+  ],
+  "homepage": "https://github.com/reliv/rcm-jira",
+  "authors": [
+    {
+      "name": "James Jervis",
+      "email": "jjervis@relivinc.com",
+      "homepage": "https://github.com/reliv"
+    },
+    {
+      "name": "Westin Shafer",
+      "email": "wshafer@relivinc.com",
+      "homepage": "https://github.com/reliv"
+    },
+    {
+      "name": "Rod McNew",
+      "email": "rmcnew@relivinc.com",
+      "homepage": "https://github.com/reliv"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "chobie/jira-api-restclient": "2.0.*@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Reliv\\RcmJira\\": "src/"
+    }
+  }
+}
